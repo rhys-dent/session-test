@@ -1,4 +1,4 @@
-const config = {
+const webConfig = {
 	app: {
 		port: process.env.PORT,
 	},
@@ -6,4 +6,6 @@ const config = {
 	sessionStore: {},
 };
 
-module.exports = config;
+const initializePassport = {};
+
+module.exports.webConfig = webConfig;
